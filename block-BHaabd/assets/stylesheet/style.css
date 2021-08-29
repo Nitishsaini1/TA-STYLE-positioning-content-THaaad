@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+
+/* body */
+body{
+    background-color: grey;
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+/* header */
+
+h1{
+    margin: 80px 0;
+    font-size: 60px;
+}
+
+/* artcles */
+.bigcontainer{
+    background-color: #ffff;
+    padding: 20px  30px;
+}
+h2{
+ 
+    margin: 20px 0;
+    font-size: 40px;
+}
+.text{
+    width: 200px;
+    font-size:25px ;
+    text-align: left;
+
+}
+.one{
+    float: left;
+}
+.two{
+    float: right;
+}
+img{
+    width: 800px;
+}
+/* article-02 */
+.container{
+      max-width: 900px;
+      font-size: 23px;
+      margin: 0 auto;
+      text-align: left;
+    line-height: 1.5;
+    padding: 20px;
+}
+.smallcontainer{
+    max-width: 700px;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin: 10px 70px;
+}
+.ione{
+    margin-bottom: 20px;
+}
+.itwo{
+      margin-bottom: 20px;
+}
+.ithree{
+    margin-bottom: 20px;
+}
